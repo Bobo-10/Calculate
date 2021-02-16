@@ -5,7 +5,8 @@ namespace MyFirstRepo
     class Program
     {
         static void Main(string[] args)
-// калькулятор через цикл swich
+        
+// КАЛЬКУЛЯТОР ЧЕРЕЗ swich
 
         //{
         //    double firstValue, secondValue;
@@ -14,7 +15,7 @@ namespace MyFirstRepo
         //    firstValue = double.Parse(Console.ReadLine());
 
         //    Console.WriteLine("Enter amount 2");
-        //    firstValue = double.Parse(Console.ReadLine());
+        //    secondValue = double.Parse(Console.ReadLine());
 
         //    Console.WriteLine("Choose operation: '+' '-' '*' '/'");
         //    action = Console.ReadLine();
@@ -43,7 +44,7 @@ namespace MyFirstRepo
 
         //}
 
-        // калькулятор через if else
+        // КАЛЬКУЛЯТОР ЧЕРЕЗ  if else
         using System;
        namespace MyFirstRepo
          {
@@ -57,7 +58,7 @@ namespace MyFirstRepo
             firstValue = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Enter amount 2");
-            firstValue = double.Parse(Console.ReadLine());
+            secondValue = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Choose operation: '+' '-' '*' '/'");
             action = Console.ReadLine();
@@ -87,7 +88,7 @@ namespace MyFirstRepo
                 Console.WriteLine("Doing something wrong");
             }
             
-            //калькулятор через функцию
+            //КАЛЬКУЛЯТОР (ТІЛЬКИ СУМА) ЧЕРЕЗ ФУНКЦІЮ
 
 using System;
 
@@ -117,4 +118,33 @@ namespace First
         }
     }
 }
-  
+  // ПОПИТКА НОРМАЛЬНОГО КАЛЬКУЛЯТОРА
+  using System;
+
+namespace First
+{
+    class MainClass
+    {
+        static int action(double firstValue, secondValue)
+        {
+            int action = firstValue + secondValue;
+            return action;
+        }
+        public static void Main(string[] args)
+        {
+            double firstValue, secondValue;
+
+            {
+                firstValue = double.Parse(Console.ReadLine());
+                secondValue = double.Parse(Console.ReadLine());
+                Console.WriteLine("Choose operation: '+' '-' '*' '/'");
+                action = Console.ReadLine();
+            }
+
+            action = (double firstValue, secondValue);
+            {
+                Console.WriteLine("Result is " + action);
+            }
+        }
+    }
+}
