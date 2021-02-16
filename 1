@@ -81,7 +81,34 @@ namespace MyFirstRepo
                 Console.WriteLine("Doing something wrong");
             }
             
+            //калькулятор через функцию
+
+using System;
+
+namespace First
+{
+    class MainClass
+    {
+        static int Sum(int a, int b)
+        {
+            int result = a + b;
+            return result;
+        }
+
+        public static void Main(string[] args)
+        {
+            int a, b, c;
+            {
+                a = int.Parse(Console.ReadLine());
+                b = int.Parse(Console.ReadLine());
+            }
+
+            c = Sum(a, b);
+            {
+                Console.WriteLine("Result is " + c);
+            }
 
         }
     }
-}  
+}
+  
