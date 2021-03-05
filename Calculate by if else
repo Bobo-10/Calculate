@@ -1,0 +1,42 @@
+using System;
+namespace First
+{
+    class Program
+    {
+        static void Main(string[] args)
+          {
+            double firstValue;
+            double secondValue;
+            string action;
+            
+            Console.WriteLine("Enter amount 1");
+            firstValue = double.Parse(Console.ReadLine());
+            
+            Console.WriteLine("Enter amount 2");
+            secondValue = double.Parse(Console.ReadLine());
+            Console.WriteLine("Choose operation: '+' '-' '*' '/'");
+            action = Console.ReadLine();
+            
+            if (action == "+")
+            {
+                Console.WriteLine(firstValue + secondValue);
+            }
+            else if (action == "-")
+            {
+                Console.WriteLine(firstValue - secondValue);
+            }
+            else if (action == "*")
+            {
+                Console.WriteLine(firstValue * secondValue);
+            }
+            else if (action == "/")
+            {
+                Console.WriteLine(firstValue / secondValue);
+            }
+            if (secondValue == 0)
+            {
+                Console.WriteLine("Doing something wrong");
+            }
+        }
+    }
+}
