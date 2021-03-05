@@ -3,8 +3,8 @@
         //{
         //    class MainClass
         //    {
-        //        private static double result;
-        //        static double Calc(double firstValue, double secondValue)
+        //        private static int result;
+        //        static int Calc(int firstValue, int secondValue)
         //        {
         //            string action;
         //            Console.WriteLine("Choose operation: '+' '-' '*' '/'");
@@ -33,12 +33,12 @@
         //        }
         //         static void  Main(string[] args)
         //        {
-        //            double a, b, c;
+        //            int a, b, c;
         //            {
         //                Console.WriteLine("Enter amount 1");
-        //                a = double.Parse(Console.ReadLine());
+        //                a = int.Parse(Console.ReadLine());
         //                Console.WriteLine("Enter amount 2");
-        //                b = double.Parse(Console.ReadLine());
+        //                b = int.Parse(Console.ReadLine());
         //            }
         //            c = Calc(a, b);
         //            {
