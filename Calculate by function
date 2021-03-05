@@ -25,7 +25,7 @@
         //                {
         //                  Console.WriteLine(firstValue / secondValue);
         //                }
-        //            if (secondValue == 0)               
+        //            else if (secondValue == 0)               
         //                  {
         //                     Console.WriteLine("Doing something wrong");
         //                  }
